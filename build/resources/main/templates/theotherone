@@ -1,0 +1,13 @@
+<h1>Leap year detector</h1>
+
+<p>Find out if any year is a leap year in the form below.  Submit your year and we will tell you
+  if it is a leap year!</p>
+
+<form action='/template' method='get'>
+  <div class="form-group">
+    <label for="userInput">A name</label>
+    <input id="userInput" name="userInput" class="form-control" type="text">
+  </div>
+
+  <button type="submit" class="btn btn-info">Is it a leap year?</button>
+</form>
